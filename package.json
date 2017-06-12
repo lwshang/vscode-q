@@ -16,6 +16,14 @@
         "Database"
     ],
     "icon": "icon.png",
+    "homepage": "https://github.com/lwshang/vscode-q/blob/master/README.md",
+    "bugs": {
+        "url": "https://github.com/lwshang/vscode-q/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lwshang/vscode-q"
+    },
     "contributes": {
         "languages": [{
             "id": "q",
