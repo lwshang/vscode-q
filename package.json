@@ -2,7 +2,7 @@
     "name": "q",
     "displayName": "KDB+/Q",
     "description": "The language support for KDB+/Q",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "lwshang",
     "engines": {
         "vscode": "^1.12.0"
