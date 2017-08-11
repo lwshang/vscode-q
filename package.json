@@ -2,7 +2,7 @@
     "name": "q",
     "displayName": "KDB+/Q",
     "description": "The language support for KDB+/Q",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "lwshang",
     "engines": {
         "vscode": "^1.12.0"
@@ -25,16 +25,25 @@
         "url": "https://github.com/lwshang/vscode-q"
     },
     "contributes": {
-        "languages": [{
-            "id": "q",
-            "aliases": ["q", "q"],
-            "extensions": [".q"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "q",
-            "scopeName": "source.q",
-            "path": "./syntaxes/Q.tmLanguage"
-        }]
+        "languages": [
+            {
+                "id": "q",
+                "aliases": [
+                    "q",
+                    "q"
+                ],
+                "extensions": [
+                    ".q"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "q",
+                "scopeName": "source.q",
+                "path": "./syntaxes/Q.tmLanguage"
+            }
+        ]
     }
 }
