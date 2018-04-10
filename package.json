@@ -42,7 +42,7 @@
             {
                 "language": "q",
                 "scopeName": "source.q",
-                "path": "./syntaxes/Q.tmLanguage.json"
+                "path": "./syntaxes/q.tmLanguage.json"
             }
         ]
     }
