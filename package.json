@@ -47,7 +47,11 @@
             }
         ]
     },
+    "scripts": {
+        "test": "mocha"
+    },
     "devDependencies": {
+        "mocha": "^5.0.5",
         "vscode-textmate": "^3.3.3"
     }
 }
