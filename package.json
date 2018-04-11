@@ -24,6 +24,7 @@
         "type": "git",
         "url": "https://github.com/lwshang/vscode-q"
     },
+    "license": "MIT",
     "contributes": {
         "languages": [
             {
@@ -45,5 +46,8 @@
                 "path": "./syntaxes/q.tmLanguage.json"
             }
         ]
+    },
+    "devDependencies": {
+        "vscode-textmate": "^3.3.3"
     }
 }
