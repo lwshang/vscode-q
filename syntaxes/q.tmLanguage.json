@@ -6,41 +6,25 @@
     "name": "q",
     "patterns": [
         {
-            "begin": "\/\n",
+            "begin": "^\/\\s*$",
             "comment": "string",
-            "end": "\\\\\n",
+            "end": "^\\\\\\s*$",
+            "name": "comment.block.source.q"
+        },
+        {
+            "begin": "^\\\\\\s*$",
+            "comment": "string",
+            "end": "^\b$",
             "name": "comment.block.source.q"
         },
         {
             "comment": "string",
-            "match": "^\/.+",
-            "name": "comment.block.source.q"
-        },
-        {
-            "begin": "^\/[ ]*$",
-            "comment": "string",
-            "end": "^\\[ ]*$",
-            "name": "comment.block.documentation"
-        },
-        {
-            "comment": "string",
-            "match": "^\/.+",
-            "name": "comment.block.source.q"
-        },
-        {
-            "comment": "string",
-            "match": " \/.*",
+            "match": "^\/.*",
             "name": "comment.line.source.q"
         },
         {
-            "begin": "\\\\\n",
             "comment": "string",
-            "end": "\\\\\n",
-            "name": "comment.block.source.q"
-        },
-        {
-            "comment": "string",
-            "match": "\/ .*",
+            "match": "\\s\/.*",
             "name": "comment.line.source.q"
         },
         {
